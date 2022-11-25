@@ -1,0 +1,17 @@
+{
+    "app":{
+        "cfengine":"lucee@5"
+    },
+    "cfconfigfile":"cfconfig.json",
+    "JVM":{
+        "args":[
+            "-Dlucee-extensions=5C558CC6-1E67-4776-96A60F9726D580F1;version=2.0.0+6428"
+        ]
+    },
+    "profile":"Development",
+    "web":{
+        "HTTP":{
+            "port":"42069"
+        }
+    }
+}
